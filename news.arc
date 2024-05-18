@@ -2615,3 +2615,4 @@ first asterisk isn't whitespace.
         (tr (td c) (tdcolor (hex>color c) (hspace 30)))))))
 
 
+(nsv)
