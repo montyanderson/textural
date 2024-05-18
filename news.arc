@@ -7,11 +7,11 @@
 
 (declare 'atstrings t)
 
-(= this-site*    "textural"
-   site-url*     "https://textural.fly.dev"
-   parent-url*   "https://textural.fly.dev"
+(= this-site*    "textural.lol"
+   site-url*     "https://textural.lol"
+   parent-url*   "https://textural.lol"
    favicon-url*  ""
-   site-desc*    "What this site is about."               ; for rss feed
+   site-desc*    "A place to share alternative and unconventional club music."               ; for rss feed
    site-color*   (color 161 87  255)
    border-color* (color 180 180 180)
    prefer-url*   t)
