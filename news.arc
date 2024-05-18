@@ -7,12 +7,12 @@
 
 (declare 'atstrings t)
 
-(= this-site*    "My Forum"
-   site-url*     "http://news.yourdomain.com/"
-   parent-url*   "http://www.yourdomain.com"
+(= this-site*    "textural"
+   site-url*     "https://textural.fly.dev"
+   parent-url*   "https://textural.fly.dev"
    favicon-url*  ""
    site-desc*    "What this site is about."               ; for rss feed
-   site-color*   (color 180 180 180)
+   site-color*   (color 161 87  255)
    border-color* (color 180 180 180)
    prefer-url*   t)
 
@@ -388,7 +388,7 @@
 
 ; Page Layout
 
-(= up-url* "grayarrow.gif" down-url* "graydown.gif" logo-url* "arc.png")
+(= up-url* "grayarrow.gif" down-url* "graydown.gif" logo-url* "textural.png")
 
 (defopr favicon.ico req favicon-url*)
 
