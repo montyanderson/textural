@@ -5,7 +5,7 @@ body {
     color:#000000;
 }
 
-a:link    {color:#000000;}
+.page-header a:link    {color:#000000;}
 a:visited { color: inherit;}
 .page-header,.page-footer {background-color:rgb(161, 87, 255);}
 .page-content {background-color: #f6f6ef;}
