@@ -1,12 +1,12 @@
 (require "search.arc")
-(= this-site*    "Anarki"
-   site-url*     "http://site.example.com";your domain name
-   parent-url*   "http://github.com/arclanguage/anarki"
+(= this-site*    "textural.lol"
+   site-url*     "https://textural.lol";
+   parent-url*   "https://textural.lol"
 ; Page Layout
 
-   logo-url*     "arc.png"
-   site-desc*    "What this site is about."               ; for rss feed
-   site-color*   (color 180 180 180)
+   logo-url*     "textural.png"
+   site-desc*    "A place to share alternative and unconventional club music."               ; for rss feed
+   site-color*   (color 161 87 255)
    prefer-url*   t
 
    newsdir*   srvdir*
