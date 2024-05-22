@@ -575,7 +575,7 @@
            (userstyle ,gu)
            (usertheme, gu)
            (gentag link "rel" "icon" "href" "/textural.png")
-           (gentag "meta" "name" "viewport" "value" "width=device-width")
+           (gentag "meta" "name" "viewport" "value" "width=device-width, initial-scale=1.0")
            (tag (script "type" "text/javascript" "src" "/news.js"))
            (tag title (pr (+ this-site* (if ,gt (+ bar* ,gt) "")))))
            (tag body 

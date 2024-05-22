@@ -547,7 +547,7 @@ See https://html.spec.whatwg.org/multipage/syntax.html#start-tags"
   `(gentag link "rel" "shortcut icon" 
                 "href" ,f))
 
-(mac meta-viewport (c) ;"width=device-width"
+(mac meta-viewport (c) ;"width=device-width, initial-scale=1.0"
   `(gentag meta "name" "viewport" 
                 "content" ,c))
 
